@@ -1,3 +1,5 @@
+package ClassWork;
+
 public class TestClassWork2 {
 //    static void TestMethod(){
 //        System.out.println("HelloWorld");

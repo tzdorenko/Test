@@ -1,7 +1,5 @@
 package HomeWork;
-
 import java.util.Scanner;
-
 public class Three {
     public static void main(String[] args) {
         char operator = 0;
@@ -9,13 +7,10 @@ public class Three {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter first number");
         num1 = input.nextDouble();
-        System.out.println("Enter the operator: +, -, *, /, %");
+        System.out.println("Enter the operator: +, -, *, /, ^, %");
         operator = input.next().charAt(0);
         System.out.println("Enter second number");
         num2 = input.nextDouble();
-//        int devAndRemOne, devAndRemTwo, result1;
-//        devAndRemOne = input.nextInt();
-//        devAndRemTwo = input.nextInt();
         switch (operator) {
             case '+':
                 result = num1 + num2;
@@ -43,7 +38,6 @@ public class Three {
                 break;
             default:
                 System.out.println("Wrong format");
-
         }
     }
 }
