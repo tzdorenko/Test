@@ -22,7 +22,7 @@ static void Min(int a, int b){
     public static void main(String[] args) {
 //        TestMethod();
 //        TwoVariables();
-        Min(3, 15);
+//        Min(3, 15);
     }
 //    public static void main(String[] args) {
 //int [][] one = {
